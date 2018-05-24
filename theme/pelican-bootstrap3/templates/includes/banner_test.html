@@ -1,0 +1,39 @@
+<style>
+	#banner  {
+
+    	height: 200px;
+   	background: #D7E4EB;
+    	position: relative;
+	}
+
+#banner:before, #banner:after {
+    display: block;
+    position: absolute;
+    content: " ";
+    width: 70px;
+    height: 200px;
+}
+
+#banner:before {
+    left: -70px;
+  background-image:url("{{ SITEURL}}/images/left_banner.png");
+/*  background-repeat: repeat-y;*/
+}
+
+#banner:after {
+	 background-image:url("{{ SITEURL}}/images/right_banner.png");
+/*  background-repeat: repeat-y; */
+    right: -70px;
+}
+</style>
+
+<div id="banner" class="container" >
+	<!--<div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}"> -->
+		<!--<div class="copy">
+			<h1>{{ SITENAME }}</h1>
+			{% if BANNER_SUBTITLE %}
+				<p class="intro">{{ BANNER_SUBTITLE }}</p>
+			{% endif %}
+		</div>
+	<!--</div> -->
+</div>

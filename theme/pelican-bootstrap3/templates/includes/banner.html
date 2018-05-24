@@ -1,0 +1,17 @@
+<style>
+	#banner{
+	    /*background-image:url("{{ SITEURL}}/images/banner_text.png"), url("{{ SITEURL}}/{{ BANNER }}"), url("{{ SITEURL}}/images/right_banner.png");*/
+		background-image:url("{{ SITEURL}}/images/banner_text.png"), url("{{ SITEURL}}/{{ BANNER }}"), url("{{ SITEURL}}/images/right_banner.png"),url("{{ SITEURL}}/images/utensilien_small.png");
+		background-repeat: no-repeat, repeat-y, repeat-y, no-repeat;
+		background-position: center, left top, right top, 70px 0%; 
+		background-size: auto 100%, auto,  auto, contain;
+		background-color:  #D7E4EB;
+		margin: 0;
+		border-bottom: 1px solid #056C9E;
+	}
+</style>
+
+<div id="banner">
+	<div class="container{% if BOOTSTRAP_FLUID %}-fluid{% endif %}">
+	</div>
+</div>
