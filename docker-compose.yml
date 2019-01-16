@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+    webapp:
+       build: ./
+       image: shogoki/drbucur
+       
+       restart: always
+       environment:
+              - VIRTUAL_HOST=www.dr-bucur.com,dr-bucur.com,www.dr-bucur.info,dr-bucur.info,dr-bucur.srv2.evoltuion-web.de
+              - LETSENCRYPT_HOST=www.dr-bucur.com,dr-bucur.com,www.dr-bucur.info,dr-bucur.info
+       networks:
+              default:
+                 aliases:
+                    - web
+            
+              web:
+                 aliases:
+                    - dr-bucur
+  
+networks:
+        web:
+          external:
+             name : webproxy
+
+       
