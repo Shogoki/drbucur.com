@@ -19,9 +19,9 @@ dpl_ghpages:
       - rm -rf output
       - rm -rf .git
       - git clone --depth 1 --single-branch --branch gh-pages https://Shogoki:$GITHUB_ACCESS_TOKEN@github.com/Shogoki/drbucur.com.git output
-      - make publish
+      - ls -lach output && make publish
       - cd output
-      - ls && git remote show origin
+      - ls -lach  && git remote show origin
       - git add -A
       - git config --global user.email "shogoki@gamersvillage.de"
       - git config --global user.name "Gitlab Runner"
