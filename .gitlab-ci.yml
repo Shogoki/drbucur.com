@@ -12,5 +12,5 @@ dpl_ghpages:
    only:
       - master
    script:
-      - fab gh_pages
+      - make github
 

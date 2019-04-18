@@ -1,4 +1,4 @@
 pelican
 markdown
 ghp-import
-fabric
+#fabric
