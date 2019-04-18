@@ -4,6 +4,7 @@ stages:
    - deploy
 
 before_script:
+   - git remote show origin
    - pip install -r requirements.txt
 
 
