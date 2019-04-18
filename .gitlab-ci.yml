@@ -24,6 +24,7 @@ dpl_ghpages:
 #      - git add -A
       - git config --global user.email "shogoki@gamersvillage.de"
       - git config --global user.name "Gitlab Runner"
+      - git remote show
       - git remote add github https://Shogoki:$GITHUB_ACCESS_TOKEN@github.com/Shogoki/drbucur.com.git
 #      - git commit -m "Build from $CI_SERVER_NAME $CI_PIPELINE_ID"
 #      - git push 
