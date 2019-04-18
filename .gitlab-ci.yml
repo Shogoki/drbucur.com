@@ -28,4 +28,3 @@ dpl_ghpages:
 #      - git commit -m "Build from $CI_SERVER_NAME $CI_PIPELINE_ID"
 #      - git push 
       - make github
-      - git push github gh-pages
