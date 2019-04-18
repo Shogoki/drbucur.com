@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Dr. Viorel Bucur'
 SITENAME = u'Dr. Bucur'
 SITEURL = ''
-THEME = '/home/ec2-user/pelican0/theme/pelican-bootstrap3'
+THEME = 'theme/pelican-bootstrap3'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Berlin'
@@ -32,7 +32,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-PLUGIN_PATHS = ['/home/ec2-user/pelican0/pelican-plugins', ]
+PLUGIN_PATHS = ['pelican-plugins', ]
 PLUGINS = ['i18n_subsites', 'thumbnailer']
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
