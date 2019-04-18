@@ -17,6 +17,7 @@ dpl_ghpages:
       - evo
    script:
       - rm -rf output
+      - rm -rf .git
       - git clone --depth 1 --single-branch --branch gh-pages https://Shogoki:$GITHUB_ACCESS_TOKEN@github.com/Shogoki/drbucur.com.git output
       - make publish
       - cd output
