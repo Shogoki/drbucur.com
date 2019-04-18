@@ -17,13 +17,15 @@ dpl_ghpages:
       - evo
    script:
       - rm -rf output
-      - git clone --depth 1 --single-branch --branch gh-pages https://Shogoki:$GITHUB_ACCESS_TOKEN@github.com/Shogoki/drbucur.com.git gh-pages
-      -  make publish
-      - cp -Rpf output/* gh-pages/
-      - cd gh-pages
-      - git add -A
+#      - git clone --depth 1 --single-branch --branch gh-pages https://Shogoki:$GITHUB_ACCESS_TOKEN@github.com/Shogoki/drbucur.com.git gh-pages
+#      -  make publish
+#      - cp -Rpf output/* gh-pages/
+#      - cd gh-pages
+#      - git add -A
       - git config --global user.email "shogoki@gamersvillage.de"
       - git config --global user.name "Gitlab Runner"
-      - git commit -m "Build from $CI_SERVER_NAME $CI_PIPELINE_ID"
-      - git push 
-
+      - git remote add github https://Shogoki:$GITHUB_ACCESS_TOKEN@github.com/Shogoki/drbucur.com.git
+#      - git commit -m "Build from $CI_SERVER_NAME $CI_PIPELINE_ID"
+#      - git push 
+      - make github
+      - git push github gh-pages
