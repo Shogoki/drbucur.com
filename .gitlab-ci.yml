@@ -8,7 +8,7 @@ before_script:
 
 
 dpl_ghpages:
-   stage: build
+   stage: deploy
    only:
       - master
    script:
