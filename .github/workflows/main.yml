@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Pelican for GitHub Pages
+      uses: nelsonjchen/gh-pages-pelican-action@0.1.4
