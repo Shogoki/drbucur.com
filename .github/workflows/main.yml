@@ -13,5 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
       name: "Checkoput Repo"
+    - run: echo "${GIT_DEPLOY_KEY}" 
     - name: Pelican for GitHub Pages
       uses: nelsonjchen/gh-pages-pelican-action@0.1.4
