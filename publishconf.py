@@ -10,13 +10,16 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://dr-bucur.com'
+SITEURL = 'https://www.dr-bucur.com'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
+STATIC_PATHS = ['CNAME']
+
 DELETE_OUTPUT_DIRECTORY = True
+
 
 # Following items are often useful when publishing
 
