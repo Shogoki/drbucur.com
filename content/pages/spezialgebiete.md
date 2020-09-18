@@ -42,9 +42,9 @@ Mit einer ärztlichen Bescheinigung wird normalerweise ein Großteil der Behand
 
 Dr. med. Alida-Christine Bucur
 ------------------------------ 
-- Internistin (Schwerpunkt Kardiologie) und Somnologin
+- Internistin
 
-- Privatpraxis (Termine nach Vereinbarung)
+- Schlafmedizin (Somnologin)
 
 Ulrike Reuter - Physiotherapeutin (Osteopathie) 
 ------------------------------------------------
