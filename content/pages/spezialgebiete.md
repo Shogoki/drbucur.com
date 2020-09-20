@@ -42,6 +42,9 @@ Mit einer ärztlichen Bescheinigung wird normalerweise ein Großteil der Behand
 
 Dr. med. Alida-Christine Bucur
 ------------------------------ 
+
+- Privatpraxis
+
 - Internistin
 
 - Schlafmedizin (Somnologin)
