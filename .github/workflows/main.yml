@@ -16,5 +16,5 @@ jobs:
     - name: Pelican for GitHub Pages
       uses: nelsonjchen/gh-pages-pelican-action@0.1.4
       env:
-        GIT_DEPLOY_KEY: ${{ secrets.GIT_DEPLOY_KEY }}
+        GIT_DEPLOY_KEY: ${{ secrets.GITHUB_TOKEN }}
         PELICAN_CONFIG_FILE: publishconf.py
