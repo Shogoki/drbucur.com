@@ -5,11 +5,12 @@ date: 2017-12-23
 pageorder: 4  
 Montag          7.30 - 11.00 und 17.00 - 19.00	 
 Dienstag        7.30 - 11.00 und 17.00 - 19.00	
-Mittwoch        7.30 - 11.00	
+Mittwoch        7.30 - 11.00 Privatsprechstunde Akupunktur, Homöopathie, Neuraltherapie, sonstige Spezialuntersuchungen
 Donnerstag      7.30 - 11.00 und 17.00 - 19.00	
 Freitag         7.30 - 11.00 und 16.00 - 18.00	
 Samstag         9.00 - 10.00	
 Ernährungsberatung	nach Termin	
+**Reguläre, verbindliche Labortage:** Montag und Donnerstag 7.30-10.00
 
 ![Pelican](../images/bild_notfall.jpg)
 

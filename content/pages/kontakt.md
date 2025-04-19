@@ -16,11 +16,3 @@ Handy:	(0172) - 696 3473
 
 Mail:	[vblues@aol.com](mailto:vblues@aol.com)
  	 
-Osteopathie:	
-
-Tel:	0174 - 21 88 409
-
-09392 - 98939
-
-Mail:	[info@privatpraxisreuter.de](mailto:info@privatpraxisreuter.de)
-

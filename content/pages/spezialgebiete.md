@@ -49,6 +49,3 @@ Dr. med. Alida-Christine Bucur
 
 - Schlafmedizin (Somnologin)
 
-Ulrike Reuter - Physiotherapeutin (Osteopathie) 
-------------------------------------------------
-- Privatpraxis (Termine nach Vereinbarung)
