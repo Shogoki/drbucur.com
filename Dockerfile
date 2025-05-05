@@ -1,3 +1,3 @@
-FROM nginx
+FROM nginx:stable
 COPY ./output /usr/share/nginx/html
 EXPOSE 80
