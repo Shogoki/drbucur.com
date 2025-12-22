@@ -2,15 +2,7 @@ title: Besonderheiten
 slug: besonderheiten
 tags: Allgemeinmedizin, Hausarzt, praxis, sprechstunde, krankheit, TODO
 date: 2017-12-23
-pageorder: 3 
-Wir sprechen Ihre Sprache
---------------------------------
-
-- ![Pelican](../images/flagge_englisch.jpg) Englisch
-- ![Pelican](../images/flagge_franzoesisch.jpg) Französisch
-- ![Pelican](../images/flagge_italienisch.jpg) Italienisch
-- ![Pelican](../images/flagge_rumaenisch.jpg) Rumänisch
-
+pageorder: 3
 Wir sind für Sie da
 --------------------
 
