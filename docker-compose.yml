@@ -7,8 +7,8 @@ services:
        
        restart: always
        environment:
-              - VIRTUAL_HOST=www.dr-bucur.com,dr-bucur.com,www.dr-bucur.info,dr-bucur.info,dr-bucur.srv2.evoltuion-web.de
-              - LETSENCRYPT_HOST=www.dr-bucur.com,dr-bucur.com,www.dr-bucur.info,dr-bucur.info
+              - VIRTUAL_HOST=www.dr-bucur.info,dr-bucur.info,dr-bucur.srv2.evoltuion-web.de
+              - LETSENCRYPT_HOST=www.dr-bucur.info,dr-bucur.info
        networks:
               default:
                  aliases:

@@ -64,7 +64,7 @@ pageorder: 8
 <p>Deutschland</p>
 <p>Tel.: 06181-160 159</p>
 <p>E-Mail: vblues@aol.com</p>
-<p>Website: dr-bucur.com</p>
+<p>Website: dr-bucur.info</p>
 
 <h4>3. Cookies</h4>
 <p>Die Internetseiten der Praxisgemeinschaft Dres. Bucur verwenden Cookies. Cookies sind Textdateien, welche über einen Internetbrowser auf einem Computersystem abgelegt und gespeichert werden.</p>
